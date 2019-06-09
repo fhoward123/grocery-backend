@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Item.create(grocery: 'Cereal', brand: 'lucky charms', size: '20 oz', quantity: 2, purchased: false)

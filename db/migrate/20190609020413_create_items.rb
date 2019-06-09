@@ -6,8 +6,6 @@ class CreateItems < ActiveRecord::Migration[5.2]
       t.text :size
       t.integer :quantity
       t.boolean :purchased
-
-      t.timestamps
     end
   end
 end

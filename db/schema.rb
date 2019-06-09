@@ -21,8 +21,6 @@ ActiveRecord::Schema.define(version: 2019_06_09_020413) do
     t.text "size"
     t.integer "quantity"
     t.boolean "purchased"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
 end

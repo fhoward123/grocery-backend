@@ -149,16 +149,6 @@ class Item < ApplicationRecord
           purchased = true
         end
         # return the item
-        # item = Item.new(
-        #   {
-        #     "grocery" => results.first["grocery"],
-        #     "brand" => results.first["brand"],
-        #     "size" => results.first["size"],
-        #     "quantity" => results.first["quantity"],
-        #     "purchased" => purchased
-        #   },
-        #   results.first["id"]
-        # )
         results
       else # otherwise, alert that update failed
         return { message: "sorry, cannot find item at id: #{id}", status: 400 }
