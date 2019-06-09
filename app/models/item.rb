@@ -22,12 +22,12 @@ class Item < ApplicationRecord
 
     # initialize options hash
     def initialize(opts = {}, id = nil)
-      @id = id.to_i
-      @grocery = opts["grocery"]
-      @brand = opts["brand"]
-      @size = opts["size"]
-      @quantity = opts["quantity"]
-      @purchased = opts["purchased"]
+        @id = id.to_i
+        @grocery = opts["grocery"]
+        @brand = opts["brand"]
+        @size = opts["size"]
+        @quantity = opts["quantity"]
+        @purchased = opts["purchased"]
     end
 
     # ==================================================
