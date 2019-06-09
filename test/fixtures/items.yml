@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  grocery: MyText
+  brand: MyText
+  size: MyText
+  quantity: 1
+  purchased: false
+
+two:
+  grocery: MyText
+  brand: MyText
+  size: MyText
+  quantity: 1
+  purchased: false
